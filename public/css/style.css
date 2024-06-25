@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEEEE;
+    color: #373A40;
+}
+
+header {
+    margin: 10px;
+    padding: 8px;
+    background-color: #DC5F00;
+    border-radius: 12px;
+    border: 2px solid #373A40;
+}
+
+body {
+    margin: 10px;
+    padding: 8px;
+    min-height: 100vh;
+}
+
+li {
+    list-style-type: none;
+    background-color: #DC5F00;
+}
+
+a {
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #DC5F00;
+}
+
+main {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 60%;
+    height: 100%;
+    background-color: #686D76;
+    border-radius: 12px;
+    border: 3px solid #DC5F00;
+
+}
+
+main h1 {
+    background-color: #686D76;
+    color: #EEEEEE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #686D76;
+    width: 100%;
+}
+
+form input {
+    border-radius: 8px;
+    height: 30px;
+}
+
+form .btn:hover {
+    background-color: #373A40;
+    color: #DC5F00;
+    font-weight: bold;
+    border: 2px solid #EEEEEE;
+}
+
+.movieCard {
+    background-color: #686D76;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.movieCard img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #373A40, 0 6px 20px 0 #373A40;
+    width: 80%;
+}
+
+.movieCard p {
+    background-color: #686D76;
+    color: #EEEEEE;
+}
